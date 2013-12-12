@@ -1,22 +1,18 @@
 ﻿/* Так как в качестве макета был pdf-файл с книжной ориентацией я посчитал что контент должен быть посередине*/
+/*Размер текста устанавливается в пунктах (как в текстовых редакторах),pdf-файл был открыт в Word*/
 div {
     width:740px;
     margin:auto;
 }
-h1{
-font-size: 25.5pt
-}
-h2{
-font-size: 19pt
-
-}
-h3{
-
-	font-size: 15pt
-}
-
-li,p,h4,table{
-font-size: 13pt
-
-
+h1 {
+    font-size:25.5pt}
+h2 {
+    font-size:19pt}
+h3 {
+    font-size:15pt}
+li,p,h4,table {
+    font-size:13pt}
+/*отступ в последнем абзаце статьи*/
+#position {
+    margin-left:60px;
 }
